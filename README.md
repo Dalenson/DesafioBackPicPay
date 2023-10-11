@@ -7,8 +7,8 @@ Desenvolvido para treinamento utilizando como base o desafio de entrevista do Pi
 
 | Método HTTP | Rota            | Descrição                                      | Exemplo de JSON                               |
 |-------------|-----------------|------------------------------------------------|-----------------------------------------------|
-| GET         | /users          | Recupera os usuarios criados                   | { "fistName":"Dale", "lastName":"cardoso", "document":"123", "email":"dale@exemplo.com", "type":"COMMON", "balance": 10 } |                                          |
-| POST        | /users          | Cria usuário                                   | { "firstName":"merchaddddnt", "lastName":"dd", "document":"1233", "email":"dalfed@exesdmalo.com", "userType":"MERCHANT", "balance": 10 } |
+| GET         | /users          | Recupera os usuarios criados                   | { "fistName":"Dale", "lastName":"Silva", "document":"123", "email":"dale@exemplo.com", "type":"COMMON", "balance": 10 } |                                      
+| POST        | /users          | Cria usuário                                   | { "firstName":"Rodrigo", "lastName":"Borges", "document":"999", "email":"rodrigo@exemplo.com", "userType":"MERCHANT", "balance": 10 } |
 | POST        | /transactions   | Cria uma transação                             | {"senderId":2,"receiverId":1,"value":10} |
 
 
